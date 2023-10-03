@@ -1,0 +1,119 @@
+.map-section{
+    width: 100%;
+    height: 43rem;
+background-image: url("../images/map.jpg");
+background-size: cover;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 4rem;
+}
+
+.map-section .details{
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+
+}
+
+
+
+.divLeft{
+    width: 40%;
+    height: 60%;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap:0.3rem;
+    margin: 5rem;
+}
+
+.divLeft p{
+    line-height: 1.3rem;
+}
+
+
+
+.divRight{
+    border-left: 1px solid rgb(176, 174, 174);
+    width: 50%;
+    height: 60%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.social-media-icons{
+display: flex;
+gap: 1rem;
+margin-top: 0.3rem;
+}
+
+.social-media-icons img{
+    width: 1.8rem;
+}
+
+.social-media-icons img:hover{
+    transform: translate(-2px,-5px);
+}
+
+
+.call,.message{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-details{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.divRight #client-details{
+    display: flex;
+flex-direction:column ;
+gap: 0.6rem;
+width: 70%;
+
+}
+ #client-details input{
+ 
+    border: 1px solid black;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    outline: none;
+
+}
+
+#client-details button{
+    height:2rem ;
+    border-radius: 2rem;
+    width: 5rem;
+    outline: none;
+    background-color: #0d1b2a;
+    border: none;
+    color: white;
+}
+
+#client-details button:hover{
+    cursor: pointer;
+}
+
+ #client-message{
+    padding: 0.3rem;
+    resize: none;
+}
